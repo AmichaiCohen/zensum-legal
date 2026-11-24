@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy — ZenSum</title>
+  <meta name="description" content="Privacy Policy for ZenSum (iOS)." />
+  <style>
+    :root {
+      --bg: #121212;
+      --surface: #1a1a1a;
+      --line: #2a2a2a;
+      --muted: #8a8a8a;
+      --text: #e6e6e6;
+      --sage: #a8c3b0;
+      --sand: #d6c7a8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+    .wrap {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 40px 20px 64px;
+    }
+    header {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      padding-bottom: 22px;
+      border-bottom: 1px solid var(--line);
+    }
+    .wordmark {
+      margin: 0;
+      font-size: 1.2rem;
+      font-weight: 500;
+      letter-spacing: 0.35em;
+      color: var(--sage);
+      text-decoration: none;
+    }
+    nav a {
+      color: var(--sand);
+      text-decoration: none;
+      font-size: 0.875rem;
+      border: 1px solid var(--line);
+      background: var(--surface);
+      padding: 5px 12px;
+      border-radius: 999px;
+    }
+    nav a:hover { border-color: var(--sand); }
+    article {
+      margin-top: 28px;
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 28px 24px;
+    }
+    h1 {
+      margin: 0 0 12px;
+      font-size: 1.45rem;
+      font-weight: 500;
+      color: var(--text);
+    }
+    .meta {
+      margin: 0 0 18px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--line);
+      font-size: 0.88rem;
+      color: var(--muted);
+    }
+    .meta strong { color: var(--text); font-weight: 500; }
+    h2 {
+      margin: 26px 0 8px;
+      font-size: 1.02rem;
+      font-weight: 500;
+      color: var(--sage);
+    }
+    p {
+      margin: 0 0 12px;
+      font-size: 0.94rem;
+      color: var(--muted);
+    }
+    ul {
+      margin: 6px 0 12px;
+      padding-left: 20px;
+      color: var(--muted);
+      font-size: 0.94rem;
+    }
+    li { margin-bottom: 6px; }
+    strong { color: var(--text); font-weight: 500; }
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 0.85em;
+      color: var(--sand);
+      background: rgba(255, 255, 255, 0.04);
+      padding: 1px 5px;
+      border-radius: 4px;
+    }
+    a { color: var(--sage); }
+    footer {
+      margin-top: 36px;
+      padding-top: 18px;
+      border-top: 1px solid var(--line);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 12px;
+      font-size: 0.82rem;
+      color: var(--muted);
+    }
+    footer a { color: var(--muted); }
+    footer a:hover { color: var(--text); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <a class="wordmark" href="./">ZENSUM</a>
+      <nav aria-label="Legal navigation">
+        <a href="./">&larr; Support</a>
+      </nav>
+    </header>
+
+    <article>
+      <h1>Privacy Policy for ZenSum</h1>
+      <p class="meta">
+        <strong>Effective Date:</strong> 2026-11-24<br />
+        <strong>Developer / Contact:</strong> Amichai Cohen &mdash; <a href="https://github.com/AmichaiCohen/zensum-legal/issues" rel="noopener">Support Tracker</a>
+      </p>
+
+      <p>
+        ZenSum respects your privacy and is designed to be played completely offline without creating an account.
+      </p>
+
+      <h2>1. Information Stored Locally on Your Device</h2>
+      <p>
+        ZenSum does not operate first-party servers and does not collect, transmit, or store personal data from gameplay on external servers. The following game state is stored strictly locally on your device using on-device storage (<code>localStorage</code> / WebKit storage):
+      </p>
+      <ul>
+        <li>Current puzzle progress, difficulty preference, scores, and daily challenge streak statistics.</li>
+        <li>App settings such as sound mute state and selected display language (English, Japanese, or Korean).</li>
+        <li>Your local In-App Purchase (&ldquo;Remove Ads&rdquo;) entitlement flag and hint usage counters so ad-free hints work seamlessly offline.</li>
+      </ul>
+
+      <h2>2. Optional Advertising (Google AdMob) &amp; App Tracking Transparency</h2>
+      <p>
+        To support optional rewarded video hints in the free tier, ZenSum integrates the Google Mobile Ads SDK (AdMob).
+      </p>
+      <ul>
+        <li>If you tap the <strong>Hint</strong> button while online (and have not purchased <strong>Remove Ads</strong>), Google AdMob may process device identifiers (such as Apple&rsquo;s IDFA if authorized via iOS App Tracking Transparency), approximate IP-based location, diagnostics, and ad-interaction telemetry to deliver and measure ads.</li>
+        <li>You will be asked via Apple&rsquo;s <strong>App Tracking Transparency (ATT)</strong> prompt whether you allow tracking. Choosing &ldquo;Ask App Not to Track&rdquo; will still allow you to play ZenSum and use non-personalized rewarded ads.</li>
+        <li>Learn more about Google&rsquo;s data practices: <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">https://policies.google.com/technologies/partner-sites</a></li>
+      </ul>
+
+      <h2>3. In-App Purchases (Apple StoreKit)</h2>
+      <p>
+        ZenSum offers a single one-time non-consumable purchase (&ldquo;Remove Ads&rdquo;, product ID <code>com.zensum.puzzle.remove_ads</code>) processed directly by Apple via StoreKit. We do not receive or store your credit card, billing address, or Apple ID payment credentials.
+      </p>
+
+      <h2>4. Children&rsquo;s Privacy</h2>
+      <p>
+        ZenSum does not knowingly collect personal information from children under 13 (or applicable minimum age in your jurisdiction).
+      </p>
+
+      <h2>5. Data Retention &amp; Deletion</h2>
+      <p>
+        All local ZenSum gameplay data remains on your device and can be permanently removed at any time by uninstalling the app.
+      </p>
+
+      <h2>6. Changes to This Policy &amp; Contact</h2>
+      <p>
+        We may update this Privacy Policy from time to time as needed. Questions or requests may be submitted via our <a href="https://github.com/AmichaiCohen/zensum-legal/issues" rel="noopener">ZenSum Support Tracker</a>.
+      </p>
+    </article>
+
+    <footer>
+      <span>&copy; 2026 Amichai Cohen &mdash; ZenSum</span>
+      <span><a href="./">Support &amp; FAQ</a></span>
+    </footer>
+  </div>
+</body>
+</html>

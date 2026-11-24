@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ZenSum — Support &amp; App Info</title>
+  <meta name="description" content="Official support and legal information for ZenSum, a minimalist 5x5 daily math and logic puzzle for iOS." />
+  <style>
+    :root {
+      --bg: #121212;
+      --surface: #1a1a1a;
+      --line: #2a2a2a;
+      --muted: #8a8a8a;
+      --text: #e6e6e6;
+      --sage: #a8c3b0;
+      --sand: #d6c7a8;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+    }
+    .wrap {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 40px 20px 64px;
+    }
+    header {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding-bottom: 24px;
+      border-bottom: 1px solid var(--line);
+    }
+    .brand {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+    .wordmark {
+      margin: 0;
+      font-size: 1.35rem;
+      font-weight: 500;
+      letter-spacing: 0.35em;
+      color: var(--sage);
+    }
+    .tagline {
+      margin: 0;
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      font-size: 0.875rem;
+    }
+    nav a {
+      color: var(--muted);
+      text-decoration: none;
+      padding: 4px 2px;
+      transition: color 0.15s ease;
+    }
+    nav a:hover { color: var(--text); }
+    nav a.pill {
+      color: var(--sand);
+      border: 1px solid var(--line);
+      background: var(--surface);
+      padding: 5px 12px;
+      border-radius: 999px;
+    }
+    nav a.pill:hover { border-color: var(--sand); }
+    main { margin-top: 32px; display: grid; gap: 28px; }
+    .hero {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 24px;
+    }
+    .hero h2 {
+      margin: 0 0 10px;
+      font-size: 1.15rem;
+      font-weight: 500;
+      color: var(--text);
+    }
+    .hero p { margin: 0; color: var(--muted); font-size: 0.95rem; }
+    .meta-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 16px;
+    }
+    .tag {
+      font-size: 0.78rem;
+      color: var(--sage);
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 4px 10px;
+    }
+    h2.section-title {
+      margin: 0 0 14px;
+      font-size: 0.82rem;
+      font-weight: 600;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+    .faq-grid {
+      display: grid;
+      gap: 12px;
+    }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 18px 20px;
+    }
+    .card h3 {
+      margin: 0 0 6px;
+      font-size: 0.98rem;
+      font-weight: 500;
+      color: var(--text);
+    }
+    .card p {
+      margin: 0;
+      font-size: 0.92rem;
+      color: var(--muted);
+    }
+    .card strong { color: var(--text); font-weight: 500; }
+    .btn {
+      display: inline-block;
+      margin-top: 14px;
+      padding: 9px 16px;
+      border-radius: 999px;
+      border: 1px solid var(--sage);
+      color: var(--sage);
+      text-decoration: none;
+      font-size: 0.88rem;
+      transition: background 0.15s ease;
+    }
+    .btn:hover { background: rgba(168, 195, 176, 0.1); }
+    a { color: var(--sage); }
+    footer {
+      margin-top: 44px;
+      padding-top: 20px;
+      border-top: 1px solid var(--line);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 12px;
+      font-size: 0.82rem;
+      color: var(--muted);
+    }
+    footer a { color: var(--muted); }
+    footer a:hover { color: var(--text); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <h1 class="wordmark">ZENSUM</h1>
+        <p class="tagline">Calm Daily 5&times;5 Arithmetic Cage Puzzles for iOS</p>
+      </div>
+      <nav aria-label="Site navigation">
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Support</a>
+        <a class="pill" href="./privacy.html">Privacy Policy</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-label="About ZenSum">
+        <h2>Quiet Logic, Zero Pressure</h2>
+        <p>
+          ZenSum is a minimalist 5&times;5 math and logic puzzle for iPhone and iPad.
+          Every puzzle is procedurally generated and verified for a unique solution,
+          designed for 100% offline play with a low-glare OLED dark palette,
+          a shared Daily Challenge &amp; streak, and subtle tactile feedback.
+        </p>
+        <div class="meta-tags">
+          <span class="tag">5&times;5 Arithmetic Cages (+ &minus; &times; &divide;)</span>
+          <span class="tag">100% Offline Play</span>
+          <span class="tag">iPhone &amp; iPad Native</span>
+        </div>
+      </section>
+
+      <section id="faq">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <div class="faq-grid">
+          <article class="card">
+            <h3>How do I play ZenSum?</h3>
+            <p>
+              Fill each row and column with the digits <strong>1 to 5</strong> without repeating any digit in the same row or column.
+              Numbers inside each outlined cage must combine to match the cage&rsquo;s target value using the shown operation (<strong>+</strong>, <strong>&minus;</strong>, <strong>&times;</strong>, or <strong>&divide;</strong>).
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Does ZenSum work offline?</h3>
+            <p>
+              Yes. All puzzles, difficulty levels, the Daily Challenge, and automatic progress saving work 100% offline.
+              Optional rewarded video hints require an internet connection unless you unlock <strong>Remove Ads</strong>, which makes hints instant and offline-ready.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>How do I restore my &ldquo;Remove Ads&rdquo; purchase on a new device?</h3>
+            <p>
+              Tap the <strong>Remove Ads</strong> pill in the top-right utility bar, then tap <strong>Restore Purchases</strong> while signed into the same Apple ID used for the original purchase.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>How do I delete my game data?</h3>
+            <p>
+              ZenSum has no user accounts and stores your puzzle progress, scores, streaks, and preferences strictly locally on your device. Uninstalling the app permanently deletes all local data.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2 class="section-title">Support &amp; Contact</h2>
+        <div class="card">
+          <h3>Need help or spotted a bug?</h3>
+          <p>
+            <strong>Developer:</strong> Amichai Cohen<br />
+            For bug reports, purchase restoration assistance, or feedback, please open an issue on our public support tracker.
+          </p>
+          <a class="btn" href="https://github.com/AmichaiCohen/zensum-legal/issues" rel="noopener">Open Support Request</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span>&copy; 2026 Amichai Cohen &mdash; ZenSum</span>
+      <span><a href="./privacy.html">Privacy Policy</a></span>
+    </footer>
+  </div>
+</body>
+</html>
